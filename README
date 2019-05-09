@@ -2,11 +2,13 @@ The command
 make
 should bring mc.pdf up to date.
 
-sample commants
+sample commands
 
 git pull  https://github.com/4dseismic/gji
 
 git status
+git log
+git diff
 git commit -a
 
 
