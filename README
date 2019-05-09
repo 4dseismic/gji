@@ -2,8 +2,12 @@ The command
 make
 should bring mc.pdf up to date.
 
-This command is used to do a git push:
-
-git push  https://einar52@github.com/4dseismic/gji
+sample commants
 
 git pull  https://github.com/4dseismic/gji
+
+git status
+git commit -a
+
+
+git push  https://einar52@github.com/4dseismic/gji
