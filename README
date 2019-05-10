@@ -5,13 +5,14 @@ should bring mc.pdf up to date.
 ssh instructions:
 https://help.github.com/en/articles/connecting-to-github-with-ssh
 
-sample commands
+githup users einar52 and ingibja
+sample git commands
 
 git pull  https://github.com/4dseismic/gji
-
 git status
 git log
 git diff
+git add
 git commit -a
 
 
@@ -19,4 +20,3 @@ git commit -a
 
 git push --set-upstream origin master
 
-githup users einar52 and ingibja
