@@ -9,4 +9,4 @@ mc.bbl : mc.bib
 	echo | pdflatex mc
 	bibtex mc
 clean :
-	rm mc.aux mc.log mc.pdf tp.pdf mc.bbl mc.blg
+	rm mc.aux mc.log mc.pdf tp.pdf mc.bbl mc.blg dump.vel gplot.input gplot.rays gplot.vel j.ray jj rays velocity 
