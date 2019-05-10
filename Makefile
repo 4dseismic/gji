@@ -3,7 +3,7 @@
 
 mc.pdf : mc.tex tp.pdf Makefile mc.bbl sl2007-vel.pdf hmE2011-vel.pdf
 	pdflatex mc
-tp.pdf : tp.sh
+tp.pdf : tp.sh sil.vel
 	sh tp.sh
 mc.bbl : mc.bib 
 	echo | pdflatex mc
