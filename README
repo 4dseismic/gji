@@ -2,6 +2,9 @@ The command
 make
 should bring mc.pdf up to date.
 
+ssh instructions:
+https://help.github.com/en/articles/connecting-to-github-with-ssh
+
 sample commands
 
 git pull  https://github.com/4dseismic/gji
@@ -12,4 +15,8 @@ git diff
 git commit -a
 
 
-git push  https://einar52@github.com/4dseismic/gji
+#git push  https://einar52@github.com/4dseismic/gji (not needed with ssh)
+
+git push --set-upstream origin master
+
+githup users einar52 and ingibja
