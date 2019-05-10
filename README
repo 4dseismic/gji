@@ -1,6 +1,7 @@
 The command 
 make
 should bring mc.pdf up to date.
+Sometimes make needs to be done more than once.
 
 ssh instructions:
 https://help.github.com/en/articles/connecting-to-github-with-ssh
@@ -9,18 +10,19 @@ githup users einar52 and ingibja
 sample git commands
 
 git pull  https://github.com/4dseismic/gji
+git pull
 git status
 git log
 git diff
 git add
 git commit -a
-
+git push
 
 #git push  https://einar52@github.com/4dseismic/gji (not needed with ssh)
 
-git push --set-upstream origin master
+#git push --set-upstream origin master
 
-If modification are beeing by more than one user it may be appropiate to
+If modification are beeing done by more than one user, it may be appropiate to
 start each session with "git pull"
 and end with "git push"
 

@@ -268,7 +268,9 @@ earthquakes.
 MC methods utilize a random search through model space to find a
 optimum solution. We use the root mean square of the time
 residuals for each observed phase as a measue of the quality of the
-trial solutions. Simulated annealing (MCSA) is a variation of the MC
+trial solutions. S and P wave phases may be assigned different weights.
+
+Simulated annealing (MCSA) is a variation of the MC
 method where the trial solutions are sometimes accepted even though
 the quality declines \citep{menke13}.
 We start with the SIL model and determine P and S velocities
@@ -280,9 +282,13 @@ determined using the MCSA method. At other depths the values from
 the SIL model are used unchanged. The earthquakes are relocated for
 each iteration.The number of earthquakes used is typically in the
 range from a few hundred to a few thousand. The velocity functions
-are constrained with gradients that decrease with depth. This ensures
+are constrained so that gradients decrease with depth. This ensures
 that the travel-time curves are single valued and without any focusing
 of rays.
+
+\section{Data tests}
+We will show here results of applying MSCA to data for different periods 
+from three region in the South Iceland seismic zone.
 
 
 \bibliography{mc}
