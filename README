@@ -20,3 +20,7 @@ git commit -a
 
 git push --set-upstream origin master
 
+If modification are beeing by more than one user it may be appropiate to
+start each session with "git pull"
+and end with "git push"
+
