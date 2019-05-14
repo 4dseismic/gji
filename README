@@ -9,13 +9,14 @@ https://help.github.com/en/articles/connecting-to-github-with-ssh
 githup users einar52 and ingibja
 sample git commands
 
-git pull  https://github.com/4dseismic/gji
+git pull  https://github.com/4dseismic/gji (needed once)
 git pull
 git status
 git log
 git diff
 git add
 git commit -a
+git push --set-upstream master master (needed once).
 git push
 
 #git push  https://einar52@github.com/4dseismic/gji (not needed with ssh)
